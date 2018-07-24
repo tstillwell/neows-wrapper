@@ -3,3 +3,8 @@ import json
 import time
 
 NASA_API_KEY = 'DEMO_KEY'
+
+
+class NEO:
+    """ Near Earth Object """
+    pass
