@@ -8,6 +8,7 @@ NASA_API_KEY = 'DEMO_KEY'
 class NEO:
     """ Near Earth Object """
 	name = ''
+    designation = ''
 	pass
 
 class N
