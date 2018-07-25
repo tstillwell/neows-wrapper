@@ -9,6 +9,7 @@ class NEO:
     """ Near Earth Object """
 	name = ''
     designation = ''
+	distance = 0
 	pass
 
 class N
