@@ -10,6 +10,7 @@ class NEO:
     name = ''
     designation = ''
     distance = 0
+    size_min = 0
     pass
 
 class N
