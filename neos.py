@@ -11,6 +11,7 @@ class NEO:
     designation = ''
     distance = 0
     size_min = 0
+    size_max = 0
     pass
 
 class N
