@@ -7,11 +7,9 @@ NASA_API_KEY = 'DEMO_KEY'
 
 class NEO:
     """ Near Earth Object """
-    name = ''
-    designation = ''
-    distance = 0
-    size_min = 0
-    size_max = 0
-    pass
-
-class N
+    def __init__(self, name, designation, size_min, size_max)
+        self.name = ''
+        self.designation = ''
+        self.distance = 0
+        self.size_min = 0
+        self.size_max = 0
