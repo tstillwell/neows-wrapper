@@ -17,3 +17,7 @@ class NEO:
 
 class NEOWebService(object)
     """ Webservice API calls """
+    def feed(self)
+        """ Retrieve a list of Asteroids
+            based on their closest approach date to Earth """
+        
