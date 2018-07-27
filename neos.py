@@ -13,3 +13,7 @@ class NEO:
         self.distance = distance
         self.size_min = size_min
         self.size_max = size_max
+
+
+class NEOWebService(object)
+    """ Webservice API calls """
