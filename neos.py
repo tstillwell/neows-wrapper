@@ -20,4 +20,8 @@ class NEOWebService(object)
     def feed(self)
         """ Retrieve a list of Asteroids
             based on their closest approach date to Earth """
-        
+        pass
+    def lookup(self)
+        """ Retrieve a specific Asteroid based on its
+            NASA JPL small body (SPK-ID) ID """
+        pass
