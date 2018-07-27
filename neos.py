@@ -5,7 +5,7 @@ import time
 NASA_API_KEY = 'DEMO_KEY'
 
 
-class NEO:
+class NEO(object):
     """ Near Earth Object """
     def __init__(self, name, designation, size_min, size_max)
         self.name = name
