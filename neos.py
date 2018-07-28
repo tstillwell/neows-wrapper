@@ -20,6 +20,10 @@ class NEOWebService(object)
     def feed(self, start_date, end_date)
         """ Retrieve a list of Asteroids
             based on their closest approach date to Earth """
+        url_params = {'start_date': start_date,
+                      'end_date': end_date,
+                      'api_key': NASA_API_KEY
+                     }
         pass
     def lookup(self)
         """ Retrieve a specific Asteroid based on its
