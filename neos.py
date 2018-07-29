@@ -35,4 +35,5 @@ class NEOWebService(object)
     def browse(self)
         """ Browse the overal Asteroid data-set """
         url_params = {'api_key': NASA_API_KEY}
+        browse_query = requests.get('https://api.nasa.gov/neo/rest/v1/browse', params=url_params)
         pass
