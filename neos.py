@@ -2,7 +2,7 @@ import requests
 import json
 import time
 
-NASA_API_KEY = 'DEMO_KEY'
+NASA_API_KEY = 'DEMO_KEY'  # replace DEOM_KEY with your api key
 
 
 class NEO(object):
