@@ -25,15 +25,12 @@ class NEOWebService(object):
                       'api_key': NASA_API_KEY
                      }
         feed_query = requests.get('https://api.nasa.gov/neo/rest/v1/feed', params=url_params)
-        pass
     def lookup(self, asteroid_id):
         """ Retrieve a specific Asteroid based on its
             NASA JPL small body (SPK-ID) ID """
         url_params = {'api_key': NASA_API_KEY}
         lookup_query = results.get('https://api.nasa.gov/neo/rest/v1/neo/%s' % asteroid_id, params=url_params)
-        pass
     def browse(self):
         """ Browse the overal Asteroid data-set """
         url_params = {'api_key': NASA_API_KEY}
         browse_query = requests.get('https://api.nasa.gov/neo/rest/v1/browse', params=url_params)
-        pass
