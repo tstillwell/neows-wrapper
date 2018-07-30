@@ -24,7 +24,10 @@ class NEOWebService(object):
                       'end_date': end_date,
                       'api_key': NASA_API_KEY
                      }
-        feed_query = requests.get('https://api.nasa.gov/neo/rest/v1/feed', params=url_params)
+        try:
+            feed_query = requests.get('https://api.nasa.gov/neo/rest/v1/feed', params=url_params)
+        except requests.exceptions.RequestException as e:
+            print(e)
     def lookup(self, asteroid_id):
         """ Retrieve a specific Asteroid based on its
             NASA JPL small body (SPK-ID) ID """
