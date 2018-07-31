@@ -26,6 +26,7 @@ class NEOWebService(object):
                      }
         try:
             feed_query = requests.get('https://api.nasa.gov/neo/rest/v1/feed', params=url_params)
+            response_data = feed_query.json()
         except requests.exceptions.RequestException as e:
             print(e)
     def lookup(self, asteroid_id):
