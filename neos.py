@@ -29,6 +29,7 @@ class NEOWebService(object):
             response_data = feed_query.json()
         except requests.exceptions.RequestException as e:
             print(e)
+
     def lookup(self, asteroid_id):
         """ Retrieve a specific Asteroid based on its
             NASA JPL small body (SPK-ID) ID """
@@ -38,6 +39,7 @@ class NEOWebService(object):
             response_data = lookup_query.json()
         except requests.exceptions.RequestException as e:
             print(e)
+
     def browse(self):
         """ Browse the overal Asteroid data-set """
         url_params = {'api_key': NASA_API_KEY}
