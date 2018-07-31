@@ -35,6 +35,7 @@ class NEOWebService(object):
         url_params = {'api_key': NASA_API_KEY}
         try:
             lookup_query = results.get('https://api.nasa.gov/neo/rest/v1/neo/%s' % asteroid_id, params=url_params)
+            response_data = lookup_query.json()
         except requests.exceptions.RequestException as e:
             print(e)
     def browse(self):
