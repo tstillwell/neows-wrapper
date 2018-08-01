@@ -7,13 +7,9 @@ NASA_API_KEY = 'DEMO_KEY'  # replace DEOM_KEY with your api key
 
 class NEO(object):
     """ Near Earth Object """
-    def __init__(self, neo_reference_id, name, designation, size_min, size_max):
+    def __init__(self, neo_reference_id, name):
         self.neo_reference_id = neo_reference_id
         self.name = name
-        self.designation = designation
-        self.distance = distance
-        self.size_min = size_min
-        self.size_max = size_max
 
 
 class NEOWebService(object):
