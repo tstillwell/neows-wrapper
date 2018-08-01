@@ -16,8 +16,9 @@ class NEOWebService(object):
     """ Webservice API calls see https://api.nasa.gov/api.html#NeoWS """
     def feed(self, start_date, end_date):
         """ Retrieve a list of Asteroids
-            based on their closest approach date to Earth """
-        url_params = {'start_date': start_date,
+            based on their closest approach date to Earth 
+            Dates expected in format yyyy-mm-dd """
+        url_params = {'start_date': start_date,  
                       'end_date': end_date,
                       'api_key': NASA_API_KEY
                      }
