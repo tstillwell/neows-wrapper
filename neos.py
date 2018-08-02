@@ -18,12 +18,13 @@ class NEOWebService(object):
         """ Retrieve a list of Asteroids
             based on their closest approach date to Earth 
             Dates expected in format yyyy-mm-dd """
+        endpoint_url = 'https://api.nasa.gov/neo/rest/v1/feed'
         url_params = {'start_date': start_date,  
                       'end_date': end_date,
                       'api_key': NASA_API_KEY
                      }
         try:
-            feed_query = requests.get('https://api.nasa.gov/neo/rest/v1/feed', params=url_params)
+            feed_query = requests.get(endpoint_url, params=url_params)
             response_data = feed_query.json()
         except requests.exceptions.RequestException as e:
             print(e)
