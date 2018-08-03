@@ -29,10 +29,10 @@ class NEOWebService(object):
         except requests.exceptions.RequestException as e:
             print(e)
 
-    def lookup(self, asteroid_id):
+    def lookup(self, neo_reference_id):
         """ Retrieve a specific Asteroid based on its
             NASA JPL small body (SPK-ID) ID """
-        endpoint_url = 'https://api.nasa.gov/neo/rest/v1/neo/%s' % asteroid_id
+        endpoint_url = 'https://api.nasa.gov/neo/rest/v1/neo/%s' % neo_reference_id
         url_params = {'api_key': NASA_API_KEY}
         try:
             lookup_query = requests.get(endpoint_url, params=url_params)
