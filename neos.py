@@ -35,8 +35,9 @@ class NEOWebService(object):
         endpoint_url = 'https://api.nasa.gov/neo/rest/v1/neo/%s' % asteroid_id
         url_params = {'api_key': NASA_API_KEY}
         try:
-            lookup_query = results.get(endpoint_url, params=url_params)
+            lookup_query = requests.get(endpoint_url, params=url_params)
             response_data = lookup_query.json()
+            print(response_data)
         except requests.exceptions.RequestException as e:
             print(e)
 
