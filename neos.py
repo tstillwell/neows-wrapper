@@ -36,7 +36,7 @@ class NEOWebService(object):
         try:
             lookup_query = requests.get(endpoint_url, params=url_params)
             response_data = lookup_query.json()
-            return response_data
+            return NEO(response_data['neo_reference_id'], response_data['name'])
         except requests.exceptions.RequestException as e:
             print(e)
 
