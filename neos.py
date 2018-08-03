@@ -1,5 +1,4 @@
 import requests
-import json
 import time
 
 NASA_API_KEY = 'DEMO_KEY'  # replace DEMO_KEY with your api key
