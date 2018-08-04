@@ -40,7 +40,9 @@ class NEOWebService(object):
             return NEO(response_data['neo_reference_id'],
                        response_data['name'],
                        orbital_data = response_data['orbital_data'],
-                       potentially_hazerdous = response_data['is_potentially_hazardous_asteroid'])
+                       potentially_hazerdous = response_data['is_potentially_hazardous_asteroid'],
+                       absolute_magnitude = response_data['absolute_magnitude_h']
+                      )
         except requests.exceptions.RequestException as e:
             print(e)
 
@@ -53,6 +55,3 @@ class NEOWebService(object):
             response_data = browse_query.json()
         except requests.exceptions.RequestException as e:
             print(e)
-
-neows = NEOWebService()
-print(neows.lookup())
