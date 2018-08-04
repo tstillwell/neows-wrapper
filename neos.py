@@ -40,6 +40,7 @@ class NEOWebService(object):
             return NEO(response_data['neo_reference_id'],
                        response_data['name'],
                        orbital_data = response_data['orbital_data'],
+                       close_approach_data = response_data['close_approach_data'],
                        potentially_hazerdous = response_data['is_potentially_hazardous_asteroid'],
                        absolute_magnitude = response_data['absolute_magnitude_h'],
                        estimated_diameter = response_data['estimated_diameter']
