@@ -41,7 +41,8 @@ class NEOWebService(object):
                        response_data['name'],
                        orbital_data = response_data['orbital_data'],
                        potentially_hazerdous = response_data['is_potentially_hazardous_asteroid'],
-                       absolute_magnitude = response_data['absolute_magnitude_h']
+                       absolute_magnitude = response_data['absolute_magnitude_h'],
+                       estimated_diameter = response_data['estimated_diameter']
                       )
         except requests.exceptions.RequestException as e:
             print(e)
