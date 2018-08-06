@@ -60,5 +60,6 @@ class NEOWebService(object):
             near_earth_objects = response_data['near_earth_objects']
             for neo in near_earth_objects:  # Process each NEO from response
                 pass
+            links = response_data['links']
         except requests.exceptions.RequestException as e:
             print(e)
