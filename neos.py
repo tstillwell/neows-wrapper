@@ -58,5 +58,7 @@ class NEOWebService(object):
             browse_query = requests.get(endpoint_url, params=url_params)
             response_data = browse_query.json()
             near_earth_objects = response_data['near_earth_objects']
+            for neo in near_earth_objects:
+                pass
         except requests.exceptions.RequestException as e:
             print(e)
