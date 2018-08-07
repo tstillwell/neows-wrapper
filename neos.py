@@ -58,6 +58,7 @@ class NEOWebService(object):
             browse_query = requests.get(endpoint_url, params=url_params)
             response_data = browse_query.json()
             near_earth_objects = response_data['near_earth_objects']
+			neo_list = []
             for neo in near_earth_objects:  # Process each NEO from response
                 pass
             links = response_data['links']
