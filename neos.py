@@ -60,7 +60,8 @@ class NEOWebService(object):
             near_earth_objects = response_data['near_earth_objects']
 			neo_list = []
             for neo in near_earth_objects:  # Process each NEO from response
-                pass
+                near_earth_object = NEO(neo['neo_reference_id'], neo['name'])
+				neo_list.append(near_earth_object)
             links = response_data['links']
         except requests.exceptions.RequestException as e:
             print(e)
