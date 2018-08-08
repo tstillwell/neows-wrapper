@@ -37,6 +37,11 @@ class NEOWebService(object):
         try:
             feed_query = requests.get(endpoint_url, params=url_params)
             response_data = feed_query.json()
+            near_earth_objects = response_data['near_earth_objects']
+            neo_list = []
+            for neo in near_earth_objects:  # Process each NEO from response
+                near_earth_object = populate(neo)
+                neo_list.append(near_earth_object)
         except requests.exceptions.RequestException as e:
             print(e)
 
