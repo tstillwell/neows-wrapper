@@ -42,6 +42,7 @@ class NEOWebService(object):
             for neo in near_earth_objects:  # Process each NEO from response
                 near_earth_object = populate(neo)
                 neo_list.append(near_earth_object)
+            return neo_list
         except requests.exceptions.RequestException as e:
             print(e)
 
