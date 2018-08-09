@@ -72,5 +72,6 @@ class NEOWebService(object):
                 near_earth_object = populate(neo)
                 neo_list.append(near_earth_object)
             links = response_data['links']
+            return [neo_list, links]
         except requests.exceptions.RequestException as e:
             print(e)
