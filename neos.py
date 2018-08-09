@@ -14,7 +14,7 @@ class NEO(object):
 class NEOWebService(object):
     """ Webservice API calls see https://api.nasa.gov/api.html#NeoWS """
     def populate(self, neo_json):
-        """ Instantiate NEO object with data from API """
+        """ Make a NEO object with data from API """
         return NEO(neo_json['neo_reference_id'],
                    neo_json['name'],
                    orbital_data = neo_json['orbital_data'],
