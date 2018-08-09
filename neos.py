@@ -75,3 +75,6 @@ class NEOWebService(object):
             return [neo_list, links]
         except requests.exceptions.RequestException as e:
             print(e)
+            
+    def browse_all(self):
+        pass
