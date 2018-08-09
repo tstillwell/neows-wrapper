@@ -77,4 +77,7 @@ class NEOWebService(object):
             print(e)
             
     def browse_all(self):
+    """ Retrieve all Near Earth Objects known to NEOWS API 
+        CAUTION this operation is long-running
+        and fires hundreds of http requests """
         pass
