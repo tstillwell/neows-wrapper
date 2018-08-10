@@ -1,10 +1,10 @@
 # neows-wrapper
 
-## Python wrapper for NASA NeoWS API
+## Python wrapper for NASA NeoWS API ##
 
 https://api.nasa.gov/api.html#NeoWS
 
-### Get an API key
+### Get an API key ##
 
 If you want to use the API past a few queries, you will need to get a free API key from NASA
 
