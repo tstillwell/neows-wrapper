@@ -1,6 +1,6 @@
 # neows-wrapper
 
-## Python wrapper for NASA NeoWS API ##
+## Python 3 wrapper for NASA NeoWS API ##
 
 https://api.nasa.gov/api.html#NeoWS
 
