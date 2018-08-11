@@ -81,4 +81,4 @@ class NEOWebService(object):
         CAUTION this operation is long-running
         and fires hundreds of http requests """
 		neo_list = []
-		initial_page = browse()
+		initial_page = browse()  # Head page with pointer to next page
