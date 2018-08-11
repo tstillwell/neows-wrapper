@@ -84,4 +84,6 @@ class NEOWebService(object):
 		initial_page = browse()  # Head page with pointer to next page
 		neo_list.append(initial_page[0])
 		links = initial_page[1]
-		
+		pages_remaining = True
+		while pages_remaining:
+			pass
