@@ -80,4 +80,4 @@ class NEOWebService(object):
     """ Retrieve all Near Earth Objects known to NEOWS API 
         CAUTION this operation is long-running
         and fires hundreds of http requests """
-        pass
+		neo_list = []
