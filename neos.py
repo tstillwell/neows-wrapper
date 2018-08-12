@@ -86,4 +86,4 @@ class NEOWebService(object):
         next_link = initial_page[1]['next']
         pages_remaining = True
         while pages_remaining:
-            
+            next_page = requests.get(next_link)
