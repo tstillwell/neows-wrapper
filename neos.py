@@ -24,6 +24,10 @@ class NEOWebService(object):
                    estimated_diameter = neo_json['estimated_diameter'],
                    links = neo_json['links']
                   )
+    
+    def processNEOs(self, neos)
+        """ Iterate over near_earth_objects json data from API """
+        pass
 
     def feed(self, start_date, end_date):
         """ Retrieve a list of Asteroids
