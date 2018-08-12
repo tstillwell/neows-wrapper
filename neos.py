@@ -27,7 +27,11 @@ class NEOWebService(object):
     
     def processNEOs(self, neos)
         """ Iterate over near_earth_objects json data from API """
-        pass
+        neo_list = []
+        for neo in neos:  # Process each NEO from response
+            near_earth_object = populate(neo)
+            neo_list.append(near_earth_object)
+        return neo_list
 
     def feed(self, start_date, end_date):
         """ Retrieve a list of Asteroids
