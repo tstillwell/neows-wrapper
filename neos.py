@@ -89,3 +89,4 @@ class NEOWebService(object):
         pages_remaining = True
         while pages_remaining:
             next_page = requests.get(next_link)
+            response_data = next_page.json()
