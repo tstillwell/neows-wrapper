@@ -90,3 +90,4 @@ class NEOWebService(object):
         while pages_remaining:
             next_page = requests.get(next_link)
             response_data = next_page.json()
+            neos_in_page = response_data['near_earth_objects']
