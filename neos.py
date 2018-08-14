@@ -91,4 +91,4 @@ class NEOWebService(object):
             next_page = requests.get(next_link)
             response_data = next_page.json()
             neos_in_page = processNEOs(response_data['near_earth_objects'])
-            
+            # add each neo from page to overall neo list
