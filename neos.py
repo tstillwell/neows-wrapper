@@ -84,7 +84,7 @@ class NEOWebService(object):
         and fires hundreds of http requests """
         neo_list = []
         initial_page = browse()  # Head page with pointer to next page
-        neo_list.append(initial_page[0])
+        neo_list.extend(initial_page[0])
         next_link = initial_page[1]['next']
         pages_remaining = True
         while pages_remaining:
