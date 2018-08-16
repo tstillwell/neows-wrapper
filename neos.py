@@ -49,7 +49,7 @@ class NEOWebService(object):
             neo_list = processNEOs(near_earth_objects)
             return neo_list
         except requests.exceptions.RequestException as e:
-            print(e)
+            print("Error in request. Resquest: %s" % feed_query)
 
     def lookup(self, neo_reference_id):
         """ Retrieve a specific Asteroid based on its
