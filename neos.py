@@ -93,7 +93,7 @@ class NEOWebService(object):
             neos_in_page = processNEOs(response_data['near_earth_objects'])
             neo_list.extend(neos_in_page)  # add each neo to overall neo list
             time.sleep(5)  # pause next request to prevent rate limiting
-            if (response_data['links']['next']):
+            if (response_data['links'] and response_data['links']['next']):
                 next_link = response_data['links']['next']
             else:  # set flag to False when there are no more links
                 pages_remaining = False
