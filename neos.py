@@ -76,7 +76,7 @@ class NEOWebService(object):
             links = response_data['links']
             return [neo_list, links]
         except requests.exceptions.RequestException as e:
-            print(e)
+            print("Error in request. Resquest: %s" % browse_query)
             
     def browse_all(self):
     """ Retrieve all Near Earth Objects known to NEOWS API 
