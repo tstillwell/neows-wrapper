@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#neos.py  -  https://github.com/tstillwell/neows-wrapper #
 import requests
 import time
 
