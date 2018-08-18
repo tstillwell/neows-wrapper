@@ -1,5 +1,3 @@
-#!/usr/bin/python
-#neos.py  -  https://github.com/tstillwell/neows-wrapper #
 import requests
 import time
 
@@ -16,15 +14,15 @@ class NEO(object):
 class NEOWebService(object):
     """ Webservice API calls see https://api.nasa.gov/api.html#NeoWS """
     def populate(self, neo_json):
-        """ Create NEO object with data from API """
+        """ Make a NEO object with data from API """
         return NEO(neo_json['neo_reference_id'],
                    neo_json['name'],
-                   orbital_data = neo_json['orbital_data'],
-                   close_approach_data = neo_json['close_approach_data'],
-                   potentially_hazerdous = neo_json['is_potentially_hazardous_asteroid'],
-                   absolute_magnitude = neo_json['absolute_magnitude_h'],
-                   estimated_diameter = neo_json['estimated_diameter'],
-                   links = neo_json['links']
+                   orbital_data=neo_json['orbital_data'],
+                   close_approach_data=neo_json['close_approach_data'],
+                   potentially_hazerdous=neo_json['is_potentially_hazardous_asteroid'],
+                   absolute_magnitude=neo_json['absolute_magnitude_h'],
+                   estimated_diameter=neo_json['estimated_diameter'],
+                   links=neo_json['links']
                   )
     
     def processNEOs(self, neos)
