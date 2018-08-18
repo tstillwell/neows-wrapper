@@ -25,8 +25,8 @@ class NEOWebService(object):
                    links=neo_json['links']
                    )
 
-    def processNEOs(self, neos)
-    """ Iterate over near_earth_objects json data from API """
+    def processNEOs(self, neos):
+        """ Iterate over near_earth_objects json data from API """
         neo_list = []
         for neo in neos:  # Process each NEO from response
             near_earth_object = populate(neo)
