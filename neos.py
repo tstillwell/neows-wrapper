@@ -24,7 +24,7 @@ class NEOWebService(object):
                    estimated_diameter=neo_json['estimated_diameter'],
                    links=neo_json['links']
                    )
-    
+
     def processNEOs(self, neos)
         """ Iterate over near_earth_objects json data from API """
         neo_list = []
