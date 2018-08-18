@@ -23,7 +23,7 @@ class NEOWebService(object):
                    absolute_magnitude=neo_json['absolute_magnitude_h'],
                    estimated_diameter=neo_json['estimated_diameter'],
                    links=neo_json['links']
-                  )
+                   )
     
     def processNEOs(self, neos)
         """ Iterate over near_earth_objects json data from API """
