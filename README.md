@@ -16,4 +16,5 @@ To change the API key open `neos.py` and look for the line near the top that has
 
 `NASA_API_KEY = 'DEMO_KEY'`
 
-Replace DEMO_KEY with your actual API key or your requests will be automatically rate-limited.
+Replace DEMO_KEY with your actual API key or 
+your API requests will be rate-limited.
