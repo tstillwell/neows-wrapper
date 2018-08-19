@@ -41,7 +41,7 @@ class NEOWebService(object):
         url_params = {'start_date': start_date,
                       'end_date': end_date,
                       'api_key': NASA_API_KEY
-                     }
+                      }
         try:
             feed_query = requests.get(endpoint_url, params=url_params)
             response_data = feed_query.json()
