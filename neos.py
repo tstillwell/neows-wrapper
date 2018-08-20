@@ -34,8 +34,8 @@ class NEOWebService(object):
         return neo_list
 
     def feed(self, start_date, end_date):
-        """ Retrieve a list of Asteroids
-            based on their closest approach date to Earth
+        """ Retrieve a list of Asteroids based on
+            their closest approach date to Earth
             Dates expected in format yyyy-mm-dd """
         endpoint_url = 'https://api.nasa.gov/neo/rest/v1/feed'
         url_params = {'start_date': start_date,
