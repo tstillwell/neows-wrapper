@@ -19,7 +19,7 @@ class NEOWebService(object):
                    neo_json['name'],
                    orbital_data=neo_json['orbital_data'],
                    close_approach_data=neo_json['close_approach_data'],
-                   potentially_hazardous=neo_json['is_potentially_hazardous_asteroid'],
+                   hazardous=neo_json['is_potentially_hazardous_asteroid'],
                    absolute_magnitude=neo_json['absolute_magnitude_h'],
                    estimated_diameter=neo_json['estimated_diameter'],
                    links=neo_json['links']
