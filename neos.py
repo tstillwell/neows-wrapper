@@ -46,7 +46,7 @@ class NEOWebService(object):
             feed_query = requests.get(endpoint_url, params=url_params)
             response_data = feed_query.json()
             near_earth_objects = response_data['near_earth_objects']
-            neo_list = processNEOs(near_earth_objects)
+            neo_list = self.processNEOs(near_earth_objects)
             return neo_list
         except requests.exceptions.RequestException as e:
             print("Error in request. Resquest: %s" % feed_query)
