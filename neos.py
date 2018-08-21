@@ -49,7 +49,7 @@ class NEOWebService(object):
             neo_list = self.processNEOs(near_earth_objects)
             return neo_list
         except requests.exceptions.RequestException as e:
-            print("Error in request. Resquest: %s" % feed_query)
+            print("Error in request. Request: %s" % feed_query)
 
     def lookup(self, neo_id):
         """ Retrieve a specific Asteroid based on its
@@ -61,7 +61,7 @@ class NEOWebService(object):
             response_data = lookup_query.json()
             return populate(response_data)
         except requests.exceptions.RequestException as e:
-            print("Error in request. Resquest: %s" % lookup_query)
+            print("Error in request. Request: %s" % lookup_query)
 
     def browse(self):
         """ Browse the overall Asteroid data-set
@@ -76,7 +76,7 @@ class NEOWebService(object):
             links = response_data['links']
             return [neo_list, links]
         except requests.exceptions.RequestException as e:
-            print("Error in request. Resquest: %s" % browse_query)
+            print("Error in request. Request: %s" % browse_query)
 
     def browse_all(self):
         """ Retrieve all Near Earth Objects known to NEOWS API
