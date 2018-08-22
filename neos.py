@@ -10,6 +10,7 @@ class NEO(object):
         self.neo_reference_id = neo_reference_id
         self.name = name
         self.orbital_data = kwargs.pop('orbital_data')
+        self.close_approach_data = kwargs.pop('close_approach_data')
 
 class NEOWebService(object):
     """ Webservice API calls see https://api.nasa.gov/api.html#NeoWS """
