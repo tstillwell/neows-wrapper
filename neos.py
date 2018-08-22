@@ -9,7 +9,7 @@ class NEO(object):
     def __init__(self, neo_reference_id, name, **kwargs):
         self.neo_reference_id = neo_reference_id
         self.name = name
-
+        self.orbital_data = kwargs.pop('orbital_data')
 
 class NEOWebService(object):
     """ Webservice API calls see https://api.nasa.gov/api.html#NeoWS """
