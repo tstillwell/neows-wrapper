@@ -13,6 +13,7 @@ class NEO(object):
         self.close_approach_data = kwargs.pop('close_approach_data')
         self.hazardous = kwargs.pop('hazardous')
         self.absolute_magnitude = kwargs.pop('absolute_magnitude')
+        self.estimated_diameter = kwargs.pop('estimated_diameter')
 
 class NEOWebService(object):
     """ Webservice API calls see https://api.nasa.gov/api.html#NeoWS """
