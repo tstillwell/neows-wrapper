@@ -12,6 +12,7 @@ class NEO(object):
         self.orbital_data = kwargs.pop('orbital_data')
         self.close_approach_data = kwargs.pop('close_approach_data')
         self.hazardous = kwargs.pop('hazardous')
+        self.absolute_magnitude = kwargs.pop('absolute_magnitude')
 
 class NEOWebService(object):
     """ Webservice API calls see https://api.nasa.gov/api.html#NeoWS """
