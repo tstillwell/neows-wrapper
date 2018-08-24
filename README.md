@@ -6,7 +6,8 @@ https://api.nasa.gov/api.html#NeoWS
 
 ### Get an API key ###
 
-If you want to use the API past a few queries, you will need to get a free API key from NASA
+If you want to use the API past a few queries,
+you will need to get a free API key from NASA.
 
 Sign up for a NASA API key here
 
