@@ -4,6 +4,8 @@
 
 https://api.nasa.gov/api.html#NeoWS
 
+   import neos
+
 ### Get an API key ###
 
 If you want to use the API past a few queries,
