@@ -4,7 +4,7 @@
 
 https://api.nasa.gov/api.html#NeoWS
 
-   import neos
+   > import neos
 
 ### Get an API key ###
 
