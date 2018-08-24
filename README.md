@@ -13,7 +13,8 @@ Sign up for a NASA API key here
 
 https://api.nasa.gov/index.html#apply-for-an-api-key
 
-To change the API key open `neos.py` and look for the line near the top that has:
+To change the API key open `neos.py` and look for
+the line near the top that has:
 
 `NASA_API_KEY = 'DEMO_KEY'`
 
