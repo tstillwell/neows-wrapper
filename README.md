@@ -4,8 +4,8 @@
 
 https://api.nasa.gov/api.html#NeoWS
 
-   > import neos
-   > neows = neos.NEOWebService()
+   > import neows-wrapper
+   > neows = neows-wrapper.NEOWebService()
    > neows.browse()
 
 ### Get an API key ###
