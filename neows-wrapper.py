@@ -70,7 +70,7 @@ class NEOWebService(object):
             response_data = lookup_query.json()
             return self.populate(response_data)
         except requests.exceptions.RequestException as e:
-            print("Error in request. Request: %s" % lookup_query)
+            print("Error in request. Request: %s. Ex: %s" % lookup_query, e)
 
     def browse(self):
         """ Browse the overall Asteroid data-set
