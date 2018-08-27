@@ -7,11 +7,11 @@ Easily explore NASA's asteroid data
 https://api.nasa.gov/api.html#NeoWS
 
 
-`
+```
 import neows-wrapper
 neows = neows-wrapper.NEOWebService()
 neows.browse()
-`
+```
 
 
 ### Get an API key ###
