@@ -2,7 +2,7 @@
 
 ## Python 3 wrapper for NASA NeoWS API ##
 
-Easily explore NASA's asteroid data
+Easily explore NASA's asteroid REST API
 
 https://api.nasa.gov/api.html#NeoWS
 
