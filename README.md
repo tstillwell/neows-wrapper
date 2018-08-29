@@ -13,6 +13,16 @@ neows = neows-wrapper.NEOWebService()
 neows.browse()
 ```
 
+## API Calls ##
+
+There are three types of lookup supported by the API:
+
+feed()
+
+browse_all()
+
+lookup()
+
 
 ### Get an API key ###
 
