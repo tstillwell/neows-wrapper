@@ -15,7 +15,9 @@ neows.browse()
 
 ## API Calls ##
 
-There are three types of lookup supported by the API:
+There are three types of lookup supported by the API
+
+Each function can be used by calling them on a NEOWebService instance
 
 `feed()`
 
