@@ -17,11 +17,11 @@ neows.browse()
 
 There are three types of lookup supported by the API:
 
-feed()
+`feed()`
 
-browse_all()
+`browse_all()`
 
-lookup()
+`lookup()`
 
 
 ### Get an API key ###
