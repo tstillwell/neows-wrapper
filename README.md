@@ -27,6 +27,10 @@ range.
 
 `browse_all()`
 
+Returns a list of all NEOs known to the API.
+This function is long-running and will be rate-limited
+without a valid API key.
+
 `lookup()`
 
 
