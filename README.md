@@ -33,6 +33,8 @@ without a valid API key.
 
 `lookup()`
 
+Returns a NEO object with the specified id.
+
 
 ### Get an API key ###
 
