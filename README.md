@@ -18,14 +18,15 @@ neows.browse()
 There are three types of lookup supported by the API
 
 Each function can be used by calling them on a NEOWebService instance
+with the specified arguments
 
-`feed()`
+`feed(start_date, end_date)`
 
 Accepts two dates in yyyy-mm-dd format and returns a list
 of NEOs making their closest approach to Earth during the date
 range.
 
-`lookup()`
+`lookup(id)`
 
 Returns a NEO object with the specified id.
 
