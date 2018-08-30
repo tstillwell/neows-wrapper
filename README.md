@@ -25,15 +25,15 @@ Accepts two dates in yyyy-mm-dd format and returns a list
 of NEOs making their closest approach to Earth during the date
 range.
 
+`lookup()`
+
+Returns a NEO object with the specified id.
+
 `browse_all()`
 
 Returns a list of all NEOs known to the API.
 This function is long-running and will be rate-limited
 without a valid API key.
-
-`lookup()`
-
-Returns a NEO object with the specified id.
 
 
 ### Get an API key ###
