@@ -21,6 +21,10 @@ Each function can be used by calling them on a NEOWebService instance
 
 `feed()`
 
+Accepts two dates in yyyy-mm-dd format and returns a list
+of NEOs making their closest approach to Earth during the date
+range.
+
 `browse_all()`
 
 `lookup()`
