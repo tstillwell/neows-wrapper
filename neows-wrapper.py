@@ -23,6 +23,7 @@ class NEOWebService(object):
         """ Make a NEO object with data from API """
         if ('orbital_data' not in neo_json):
             neo_json['orbital_data'] = []
+
         return NEO(neo_json['neo_reference_id'],
                    neo_json['name'],
                    orbital_data=neo_json['orbital_data'],
