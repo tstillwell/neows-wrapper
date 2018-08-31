@@ -18,7 +18,7 @@ class NEO(object):
 
 
 class NEOWebService(object):
-    """ Webservice API calls see https://api.nasa.gov/api.html#NeoWS """
+    """ NASA NEO Webservice API wrapper """
     def populate(self, neo_json):
         """ Make a NEO object with data from API """
         if ('orbital_data' not in neo_json):
