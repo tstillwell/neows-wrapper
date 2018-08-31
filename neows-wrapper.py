@@ -21,6 +21,8 @@ class NEOWebService(object):
     """ Webservice API calls see https://api.nasa.gov/api.html#NeoWS """
     def populate(self, neo_json):
         """ Make a NEO object with data from API """
+        if ('orbital_data' not in neo_json):
+            neo_json['orbital_data'] = []
         return NEO(neo_json['neo_reference_id'],
                    neo_json['name'],
                    orbital_data=neo_json['orbital_data'],
@@ -51,6 +53,7 @@ class NEOWebService(object):
         try:
             feed_query = requests.get(endpoint_url, params=url_params)
             response_data = feed_query.json()
+            print(response_data)
             neo_list = []
             near_earth_objects = response_data['near_earth_objects']
             for day in near_earth_objects:  # add NEOs for each day
