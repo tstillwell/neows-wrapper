@@ -108,7 +108,7 @@ class NEOWebService(object):
             next_page = requests.get(next_link)
             response_data = next_page.json()
             neos = self.processNEOs(response_data['near_earth_objects'])
-            neo_list.extend(neos)  # add each neo to overall neo list
+            neo_list.extend(neos)
             time.sleep(5)  # pause next request to prevent rate limiting
             if (response_data['links'] and response_data['links']['next']):
                 next_link = response_data['links']['next']
