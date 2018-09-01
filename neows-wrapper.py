@@ -1,3 +1,5 @@
+# neows-wrapper.py NASA NEOWS API wrapper
+# MIT LICENSE
 import requests
 import time
 
