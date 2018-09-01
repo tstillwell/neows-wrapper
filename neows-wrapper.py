@@ -27,6 +27,7 @@ class NEOWebService(object):
     def populate(self, neo_json):
         """ Make a NEO object with data from API """
         if ('orbital_data' not in neo_json):
+            # orbital data is not present in all responses
             neo_json['orbital_data'] = []
 
         return NEO(neo_json['neo_reference_id'],
