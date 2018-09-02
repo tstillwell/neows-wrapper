@@ -23,7 +23,7 @@ at the top of this file.
 
 `feed(start_date, end_date)`
 
-Accepts two dates (in yyyy-mm-dd format) and returns a list
+Accepts two date strings (in yyyy-mm-dd format) and returns a list
 of NEOs making their closest approach to Earth during the date
 range.
 
