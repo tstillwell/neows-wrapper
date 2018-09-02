@@ -7,7 +7,8 @@ https://github.com/tstillwell/neows-wrapper
 import requests
 import time
 
-NASA_API_KEY = 'DEMO_KEY'  # replace DEMO_KEY with your api key
+# replace DEMO_KEY with your api key
+NASA_API_KEY = 'DEMO_KEY' 
 
 
 class NEO(object):
