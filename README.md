@@ -18,7 +18,8 @@ neows.browse()
 There are three types of lookup supported by the API
 
 Each function can be used by calling them on a NEOWebService instance
-with the specified arguments
+with the specified arguments. See the code example
+at the top of this file.
 
 `feed(start_date, end_date)`
 
