@@ -1,5 +1,6 @@
 """
-neows-wrapper.py NASA NEOWS API wrapper
+neows-wrapper.py
+NASA NEOWS API wrapper
 MIT LICENSE
 https://github.com/tstillwell/neows-wrapper
 """
