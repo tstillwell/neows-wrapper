@@ -8,7 +8,7 @@ import requests
 import time
 
 # replace DEMO_KEY with your api key
-NASA_API_KEY = 'DEMO_KEY' 
+NASA_API_KEY = 'DEMO_KEY'
 
 
 class NEO(object):
