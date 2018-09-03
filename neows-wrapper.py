@@ -64,7 +64,8 @@ class NEOWebService(object):
             response_data = feed_query.json()
             neo_list = []
             near_earth_objects = response_data['near_earth_objects']
-            for day in near_earth_objects:  # add NEOs for each day
+            # responses contain a day for each date in provided range
+            for day in near_earth_objects:
                 neos = self.processNEOs(near_earth_objects[day])
                 neo_list.extend(neos)
             return neo_list
