@@ -44,7 +44,8 @@ Each function returns either a NEO object or a list of NEO objects.
 These objects represent a Near Earth Object and it's associated data
 available from the webservice.
 
-Each NEO has a unique numeric reference id.
+Each NEO has a unique numeric reference id. This is the same
+as the id that is provided to the lookup function.
 
 ### Get an API key ###
 
