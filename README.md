@@ -41,7 +41,8 @@ without a valid API key.
 ## NEO Objects ##
 
 Each function returns either a NEO object or a list of NEO objects.
-These objects represent a Near Earth Object retrieved from the API.
+These objects represent a Near Earth Object and it's associated data
+available from the webservice.
 
 ### Get an API key ###
 
