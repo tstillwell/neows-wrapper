@@ -38,6 +38,10 @@ This function is long-running and will be rate-limited
 without a valid API key.
 
 
+## NEO Objects ##
+
+Each function returns either a NEO object or a list of NEO objects.
+
 ### Get an API key ###
 
 If you want to use the API past a few queries,
