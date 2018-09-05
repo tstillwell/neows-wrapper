@@ -48,7 +48,6 @@ Each NEO has a unique numeric reference id. This is the same
 as the id that is provided to the lookup function.
 
 
-
 ### Get an API key ###
 
 If you want to use the API past a few queries,
