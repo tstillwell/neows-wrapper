@@ -12,6 +12,7 @@ import neows-wrapper
 neows = neows-wrapper.NEOWebService()
 neows.browse()
 ```
+_______________________________________
 
 ## API Calls ##
 
