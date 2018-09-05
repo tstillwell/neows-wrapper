@@ -8,7 +8,7 @@ See project README for usage details
 import requests
 import time
 
-# replace DEMO_KEY with your api key
+# replace DEMO_KEY with your API key
 NASA_API_KEY = 'DEMO_KEY'
 
 
