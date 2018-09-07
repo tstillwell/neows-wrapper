@@ -27,7 +27,7 @@ neows = neows-wrapper.NEOWebService()
 neows.feed('2000-01-01', '2001-01-02')
 ```
 
-__ Feed __
+__Feed__
 
 `feed(start_date, end_date)`
 
@@ -35,13 +35,13 @@ Accepts two date strings (in 'yyyy-mm-dd' format) and returns a list
 of NEOs making their closest approach to Earth during the date
 range.
 
-__ Lookup __
+__Lookup__
 
 `lookup(id)`
 
 Returns a NEO object with the specified id.
 
-__ Fetch All __
+__Fetch All__
 
 `fetch_all()`
 
