@@ -54,7 +54,7 @@ without a valid API key.
 
 ## NEO Objects ##
 
-Each function returns either a NEO object or a list of NEO objects.
+Each function above returns either a NEO object or a list of NEO objects.
 These objects represent Near Earth Objects and associated data
 available from the webservice.
 
