@@ -35,6 +35,8 @@ Accepts two date strings (in 'yyyy-mm-dd' format) and returns a list
 of NEOs making their closest approach to Earth during the date
 range.
 
+The maximum date range allowed by this function is 7 days.
+
 __Lookup__
 
 `lookup(id)`
