@@ -22,7 +22,7 @@ There are three types of lookup supported by the API
 Each function can be used by calling it on a NEOWebService instance
 with the specified arguments.
 
-Example:
+example:
 
 ```
 neows = neows-wrapper.NEOWebService()
