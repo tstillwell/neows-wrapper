@@ -22,10 +22,13 @@ There are three types of lookup supported by the API
 Each function can be used by calling it on a NEOWebService instance
 with the specified arguments.
 
+Example:
+
 ```
 neows = neows-wrapper.NEOWebService()
 neows.feed('2000-01-01', '2001-01-02')
 ```
+
 
 __Feed__
 
