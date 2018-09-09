@@ -65,21 +65,21 @@ _______________________________________
 
 Here are the data fields which are provided:
 
-neo_reference_id
+*__neo_reference_id__*
 
-name
+*name*
 
-orbital_data
+*orbital_data*
 
-close_approach_data
+*close_approach_data*
 
-hazardous
+*hazardous*
 
-absolute_magnitude_h
+*absolute_magnitude_h*
 
-estimated_diameter
+*estimated_diameter*
 
-links
+*links*
 
 _______________________________________
 
