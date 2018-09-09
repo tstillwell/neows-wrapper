@@ -67,6 +67,9 @@ Here are the data fields which are provided:
 
 *neo_reference_id*
 
+Unique integer id for each object. This is the SPK-id
+and is the same value provided to the __lookup__ function
+
 *name*
 
 *orbital_data*
