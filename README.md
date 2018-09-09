@@ -65,7 +65,7 @@ _______________________________________
 
 Here are the data fields which are provided:
 
-*__neo_reference_id__*
+*neo_reference_id*
 
 *name*
 
