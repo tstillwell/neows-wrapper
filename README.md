@@ -61,6 +61,7 @@ Each function above returns either a NEO object or a list of NEO objects.
 These objects represent Near Earth Objects and associated data
 available from the webservice.
 
+_______________________________________
 
 Here are the data fields which are provided:
 
@@ -80,6 +81,7 @@ estimated_diameter
 
 links
 
+_______________________________________
 
 ### Get an API key ###
 
