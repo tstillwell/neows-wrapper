@@ -62,6 +62,25 @@ These objects represent Near Earth Objects and associated data
 available from the webservice.
 
 
+Here are the data fields which are provided:
+
+neo_reference_id
+
+name
+
+orbital_data
+
+close_approach_data
+
+hazardous
+
+absolute_magnitude_h
+
+estimated_diameter
+
+links
+
+
 ### Get an API key ###
 
 If you want to use the API past a few queries,
