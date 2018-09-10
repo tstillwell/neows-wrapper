@@ -86,6 +86,9 @@ making its closest approach to Earth in it's orbit
 
 *hazardous*
 
+Indicates if the object is potentially hazardous. This is
+determined by orbit and size classification
+
 *absolute_magnitude_h*
 
 *estimated_diameter*
