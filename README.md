@@ -76,6 +76,9 @@ Name / provisional designation of object
 
 *orbital_data*
 
+Keplerian elements used to calculate and describe
+the orbit of the object
+
 *close_approach_data*
 
 *hazardous*
