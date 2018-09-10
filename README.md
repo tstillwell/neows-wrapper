@@ -81,6 +81,9 @@ the orbit of the object
 
 *close_approach_data*
 
+Info on the time and circumstances of the object
+making its closest approach to Earth in it's orbit
+
 *hazardous*
 
 *absolute_magnitude_h*
