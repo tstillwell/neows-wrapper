@@ -72,6 +72,8 @@ and is the same value provided to the __lookup__ function
 
 *name*
 
+Name / provisional designation of object
+
 *orbital_data*
 
 *close_approach_data*
