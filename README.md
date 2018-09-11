@@ -95,6 +95,8 @@ Magnitude (brightness) of the object
 
 *estimated_diameter*
 
+Estimated min and max size in various various units
+
 *links*
 
 _______________________________________
