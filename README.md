@@ -99,6 +99,8 @@ Estimated min and max size in various various units
 
 *links*
 
+URL for object in API
+
 _______________________________________
 
 ### Get an API key ###
