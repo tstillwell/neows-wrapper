@@ -100,7 +100,7 @@ Estimated min and max size in various units
 
 *links*
 
-URL for object in API
+Reference URL for object data in API
 
 _______________________________________
 
