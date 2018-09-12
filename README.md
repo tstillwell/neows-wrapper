@@ -121,7 +121,7 @@ the line near the top that has:
 Replace DEMO_KEY with your actual API key or 
 your API requests will be rate-limited.
 
-### LICENSE
+### LICENSE ###
 
 MIT license
 
