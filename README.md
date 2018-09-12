@@ -77,7 +77,8 @@ Name / provisional designation of object
 *orbital_data*
 
 Keplerian elements used to calculate and describe
-the orbit of the object
+the orbit of the object. Orbital data is not retrieved
+when performing 'feed' lookups.
 
 *close_approach_data*
 
