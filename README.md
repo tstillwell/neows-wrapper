@@ -63,7 +63,7 @@ available from the webservice.
 
 _______________________________________
 
-Here are the data fields which are provided:
+Here are the data fields which are provided for each object:
 
 *neo_reference_id*
 
