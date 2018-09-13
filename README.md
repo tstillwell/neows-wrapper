@@ -74,7 +74,7 @@ and is the same value provided to the __lookup__ function
 
 Name / provisional designation of object
 
-*orbital_data*
+**orbital_data**
 
 Keplerian elements used to calculate and describe
 the orbit of the object. Orbital data is not retrieved
