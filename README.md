@@ -80,7 +80,7 @@ Keplerian elements used to calculate and describe
 the orbit of the object. Orbital data is not retrieved
 when performing 'feed' lookups.
 
-*close_approach_data*
+**close_approach_data**
 
 Info on the time and circumstances of the object
 making its closest approach to Earth in it's orbit
