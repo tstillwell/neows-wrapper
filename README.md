@@ -85,7 +85,7 @@ when performing 'feed' lookups.
 Info on the time and circumstances of the object
 making its closest approach to Earth in it's orbit
 
-*hazardous*
+**hazardous**
 
 Indicates if the object is potentially hazardous. This is
 determined by orbit and size classification
