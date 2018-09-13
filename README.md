@@ -70,7 +70,7 @@ Here are the data fields which are provided for each object:
 Unique integer id for each object. This is the SPK-id
 and is the same value provided to the __lookup__ function
 
-*name*
+**name**
 
 Name / provisional designation of object
 
