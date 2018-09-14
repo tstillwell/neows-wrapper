@@ -75,7 +75,7 @@ class NEOWebService(object):
             print("Error in request. Request: %s. Ex: %s" % feed_query, e)
 
     def lookup(self, neo_id):
-        """ Return a NEO having the given
+        """ Return a NEO which has the given
             NASA JPL small body (SPK-ID) ID """
         endpoint_url = 'https://api.nasa.gov/neo/rest/v1/neo/%s' % neo_id
         url_params = {'api_key': NASA_API_KEY}
