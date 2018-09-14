@@ -87,7 +87,7 @@ class NEOWebService(object):
             print("Error in request. Request: %s. Ex: %s" % lookup_query, e)
 
     def browse(self):
-        """ Browse the overall Asteroid data-set
+        """ Return the head page of the overall Asteroid data-set
             Responses contain a 'next' link to the next page in set """
         endpoint_url = 'https://api.nasa.gov/neo/rest/v1/neo/browse'
         url_params = {'api_key': NASA_API_KEY}
