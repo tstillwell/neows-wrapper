@@ -102,7 +102,7 @@ class NEOWebService(object):
             print("Error in request. Request: %s. Ex: %s" % browse_query, e)
 
     def fetch_all(self):
-        """ Retrieve all Near Earth Objects known to NEOWS API
+        """ Return all Near Earth Objects known to NEOWS API
             CAUTION this operation is long-running
             and fires hundreds of http requests """
         neo_list = []
