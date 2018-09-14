@@ -52,7 +52,7 @@ class NEOWebService(object):
         return neo_list
 
     def feed(self, start_date, end_date):
-        """ Retrieve a list of Asteroids based on
+        """ Return list of Asteroids based on
             their closest approach date to Earth
             Dates expected in format yyyy-mm-dd
             The Feed date limit is 7 Days """
