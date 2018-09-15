@@ -44,7 +44,7 @@ class NEOWebService(object):
                    )
 
     def processNEOs(self, neos):
-        """ Return list of neos instantiated using json data from API """
+        """ Makes a list of NEOs by calling populate on json response """
         neo_list = []
         for neo in neos:  # Process each NEO from response
             near_earth_object = self.populate(neo)
@@ -52,7 +52,7 @@ class NEOWebService(object):
         return neo_list
 
     def feed(self, start_date, end_date):
-        """ Return list of Asteroids based on
+        """ Retrieve a list of Asteroids based on
             their closest approach date to Earth
             Dates expected in format yyyy-mm-dd
             The Feed date limit is 7 Days """
@@ -75,7 +75,7 @@ class NEOWebService(object):
             print("Error in request. Request: %s. Ex: %s" % feed_query, e)
 
     def lookup(self, neo_id):
-        """ Return a NEO which has the given
+        """ Retrieve a specific Asteroid based on its
             NASA JPL small body (SPK-ID) ID """
         endpoint_url = 'https://api.nasa.gov/neo/rest/v1/neo/%s' % neo_id
         url_params = {'api_key': NASA_API_KEY}
@@ -87,7 +87,7 @@ class NEOWebService(object):
             print("Error in request. Request: %s. Ex: %s" % lookup_query, e)
 
     def browse(self):
-        """ Return the head page of the overall Asteroid data-set
+        """ Browse the overall Asteroid data-set
             Responses contain a 'next' link to the next page in set """
         endpoint_url = 'https://api.nasa.gov/neo/rest/v1/neo/browse'
         url_params = {'api_key': NASA_API_KEY}
@@ -102,7 +102,7 @@ class NEOWebService(object):
             print("Error in request. Request: %s. Ex: %s" % browse_query, e)
 
     def fetch_all(self):
-        """ Return all Near Earth Objects known to NEOWS API
+        """ Retrieve all Near Earth Objects known to NEOWS API
             CAUTION this operation is long-running
             and fires hundreds of http requests """
         neo_list = []
