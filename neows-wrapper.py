@@ -44,7 +44,7 @@ class NEOWebService(object):
                    )
 
     def processNEOs(self, neos):
-        """ Makes a list of NEOs by calling populate on json response """
+        """ Make a list of NEOs by calling populate on json response """
         neo_list = []
         for neo in neos:  # Process each NEO from response
             near_earth_object = self.populate(neo)
