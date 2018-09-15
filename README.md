@@ -92,6 +92,7 @@ determined by orbit and size classification
 
 *absolute_magnitude_h*
 
+Result of Absolute magnitude(h) calculation-
 Observed luminosity/brightness of the object
 
 *estimated_diameter*
