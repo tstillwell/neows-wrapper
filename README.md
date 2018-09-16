@@ -90,7 +90,7 @@ making its closest approach to Earth in it's orbit
 Indicates if the object is potentially hazardous. This is
 determined by orbit and size classification
 
-*absolute_magnitude_h*
+**absolute_magnitude_h**
 
 Result of Absolute magnitude(h) calculation-
 Observed luminosity/brightness of the object
