@@ -99,7 +99,7 @@ Observed luminosity/brightness of the object
 
 Estimated min and max size in various units
 
-*links*
+**links**
 
 Reference endpoint URL for object data in APIs
 
