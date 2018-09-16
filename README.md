@@ -95,7 +95,7 @@ determined by orbit and size classification
 Result of Absolute magnitude(h) calculation-
 Observed luminosity/brightness of the object
 
-*estimated_diameter*
+**estimated_diameter**
 
 Estimated min and max size in various units
 
