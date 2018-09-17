@@ -44,7 +44,7 @@ __Lookup__
 
 `lookup(id)`
 
-Returns a NEO object with the specified id.
+Returns a NEO object with the specified SPK id.
 
 __Fetch All__
 
