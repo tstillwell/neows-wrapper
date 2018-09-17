@@ -65,41 +65,41 @@ _______________________________________
 
 Here are the data fields which are provided for each object:
 
-** neo_reference_id **
+**neo_reference_id**
 
 Unique integer id for each object
 This is the SPK-id used to lookup the object
 
-** name **
+**name**
 
 Name / provisional designation of object
 
-** orbital_data **
+**orbital_data**
 
 Keplerian elements used to calculate and describe
 the orbit of the object. Orbital data is not retrieved
 when performing 'feed' lookups.
 
-** close_approach_data **
+**close_approach_data**
 
 Info on the time and circumstances of the object
 making its closest approach to Earth in it's orbit
 
-** hazardous **
+**hazardous**
 
 Indicates if the object is potentially hazardous. This is
 determined by orbit and size classification
 
-** absolute_magnitude_h **
+**absolute_magnitude_h**
 
 Result of Absolute magnitude(h) calculation-
 Observed luminosity/brightness of the object
 
-** estimated_diameter **
+**estimated_diameter**
 
 Estimated min and max size in various units
 
-** links **
+**links**
 
 Reference endpoint URL for object data in APIs
 
