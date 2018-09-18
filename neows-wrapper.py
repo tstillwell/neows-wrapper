@@ -87,8 +87,9 @@ class NEOWebService(object):
             print("Error in request. Request: %s. Ex: %s" % lookup_query, e)
 
     def browse(self):
-        """ Retrieve the initial page of the overall Asteroid data-set
-            and a link to the next page """
+        """ Retrieve a list of two items, the first object being
+            the initial page of the overall Asteroid data-set
+            and the second a link to the next page """
         endpoint_url = 'https://api.nasa.gov/neo/rest/v1/neo/browse'
         url_params = {'api_key': NASA_API_KEY}
         try:
