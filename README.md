@@ -39,6 +39,7 @@ of NEOs making their closest approach to Earth during the date
 range.
 
 The maximum date range allowed by this function is 7 days.
+Date rangers larger than this will generate an error.
 
 __Lookup__
 
