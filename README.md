@@ -52,8 +52,13 @@ __Fetch All__
 `fetch_all()`
 
 Returns a list of all NEOs known to the API.
+
+Asks the API for its data on each object using
+a paging system of http requests.
+
 This function is long-running and will be rate-limited
-without a valid API key.
+without a valid API key, as it effectively scrapes all
+the available data from the API.
 
 
 ## NEO Objects ##
