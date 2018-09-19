@@ -107,7 +107,7 @@ class NEOWebService(object):
             CAUTION this operation is long-running
             and fires hundreds of http requests """
         neo_list = []
-        initial_page = self.browse()  # Head page with pointer to next page
+        initial_page = self.browse()  # initial_page = [neo_list, links]
         neo_list.extend(initial_page[0])
         next_link = initial_page[1]['next']
         pages_remaining = True
