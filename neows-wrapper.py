@@ -13,7 +13,7 @@ NASA_API_KEY = 'DEMO_KEY'
 
 
 class NEO(object):
-    """ Near Earth Object retrieved from NEOWebService """
+    """ Near Earth Object retrieved from NEOWebService API """
     def __init__(self, neo_reference_id, name, **kwargs):
         self.neo_reference_id = neo_reference_id
         self.name = name
