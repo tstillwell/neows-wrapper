@@ -3,7 +3,7 @@ neows-wrapper.py
 NASA NEOWS API wrapper
 MIT LICENSE
 https://github.com/tstillwell/neows-wrapper
-See project README for usage details
+See README for usage details
 """
 import requests
 import time
