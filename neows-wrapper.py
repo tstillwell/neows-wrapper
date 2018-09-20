@@ -90,7 +90,7 @@ class NEOWebService(object):
     def browse(self):
         """ Retrieve a list of two items, the first object being
             the initial page of the overall Asteroid data-set 
-            (in a list of NEO objects) and the second a link to the next page """
+            (list of NEO objects) and the second a link to the next page """
         endpoint_url = 'https://api.nasa.gov/neo/rest/v1/neo/browse'
         url_params = {'api_key': NASA_API_KEY}
         try:
