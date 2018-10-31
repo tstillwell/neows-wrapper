@@ -9,8 +9,8 @@ https://api.nasa.gov/api.html#NeoWS
 
 
 ```
-import neows-wrapper
-neows = neows-wrapper.NEOWebService()
+import neowswrapper
+neows = neowswrapper.NEOWebService()
 neows.browse()
 ```
 _______________________________________
@@ -25,7 +25,7 @@ with the specified arguments.
 example:
 
 ```
-neows = neows-wrapper.NEOWebService()
+neows = neowswrapper.NEOWebService()
 neows.feed('2000-01-01', '2001-01-02')
 ```
 
